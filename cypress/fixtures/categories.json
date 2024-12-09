@@ -1,0 +1,23 @@
+{
+  "categories": [
+    {
+      "text": "CATEGORIES",
+      "id": "cat"
+    },
+    {
+      "text": "Phones",
+      "id": "itemc",
+      "category": "phone"
+    },
+    {
+      "text": "Laptops",
+      "id": "itemc",
+      "category": "notebook"
+    },
+    {
+      "text": "Monitors",
+      "id": "itemc",
+      "category": "monitor"
+    }
+  ]
+}

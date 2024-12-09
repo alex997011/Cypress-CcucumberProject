@@ -1,0 +1,29 @@
+{
+  "navLinks": [
+    {
+      "name": "Contact",
+      "type": "modal",
+      "target": "#exampleModal"
+    },
+    {
+      "name": "About us",
+      "type": "modal",
+      "target": "#videoModal"
+    },
+    {
+      "name": "Log in",
+      "type": "modal",
+      "target": "#logInModal"
+    },
+    {
+      "name": "Sign up",
+      "type": "modal",
+      "target": "#signInModal"
+    },
+    {
+      "name": "Cart",
+      "type": "page",
+      "url": "cart.html"
+    }
+  ]
+}
