@@ -8,7 +8,8 @@ We created a framework from scratch using any version of cypress and cucumber to
 2. Cypress v13.16.1
 3. Cucumber v4.3.1
 4. Node.js
-5. Git installes
+5. Git installed
+6. Allure report
 
 # 🔎 Features - Test Scenarios
 The framework include test cases for the follwing funcionalities
