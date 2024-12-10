@@ -85,7 +85,7 @@ Install Allure dependencies:
 
 ## 🏃‍♂️ Running Tests
 
-1. Open Cypress Test Runner:
+Open Cypress Test Runner:
 
 - npx cypress open
 
