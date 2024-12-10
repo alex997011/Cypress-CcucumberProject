@@ -1,12 +1,11 @@
 @regression @cart
 Feature: Cart Functionalities
 
-  @setup
   Background:
     Given I am on the home page
 
   @navigation @smoke
-  Scenario: Navigate through to Categories
+  Scenario: Navigate through the Categories
     When I click on "CATEGORIES"
     Then I should see the main categories container
     When I click on "Phones"
@@ -60,7 +59,4 @@ Feature: Cart Functionalities
     Then I should see my cart with the product
     When I do click on delete item
     Then I should see my cart empty
-
-
-
 

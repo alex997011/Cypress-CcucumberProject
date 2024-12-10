@@ -1,7 +1,6 @@
 @navigation
 Feature: Navigation Bar Options
 
-  @setup
   Background:
     Given I am on the home page
 

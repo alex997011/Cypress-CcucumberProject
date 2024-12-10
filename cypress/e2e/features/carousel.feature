@@ -1,17 +1,16 @@
-@carousel
+@carousel @ui-tests
 Feature: Carousel Navigation
 
-  @setup
   Background:
     Given I am on the home page
 
-  @navigation @smoke
+  @navigation @smoke-test
   Scenario: Navigate through carousel using next button
     Then The navbar brand should be visible
     When I click in the control next
     Then The next element in the left should be visible
 
-  @navigation @smoke
+  @navigation @smoke-test
   Scenario: Navigate through carousel using prev button
     Then The navbar brand should be visible
     When I click in the control prev
