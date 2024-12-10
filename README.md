@@ -1,4 +1,4 @@
-# 🚀 Automation Framework with Cypress and Ccucumber
+# 🚀 Automation Framework with Cypress and Cucumber
 
 We created a framework from scratch using any version of cypress and cucumber to test the webpage: https://www.demoblaze.com
 
