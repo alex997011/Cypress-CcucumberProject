@@ -50,7 +50,7 @@ class HomePage {
         this.elements.products()
             .then($products => {
                 const randomIndex = Math.floor(Math.random() * $products.length)
-                // Log para debug
+
                 cy.log(`Clicking product at index ${randomIndex}`)
                 cy.wrap($products[randomIndex]).click()
             })

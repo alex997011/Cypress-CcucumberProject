@@ -3,7 +3,7 @@ import { Given, When, Then, And } from "cypress-cucumber-preprocessor/steps";
 
 
 Given('I am on the home page', () => {
-    cy.log('Verificando que estamos en la página principal')
+    cy.log('Verifying that we are on the homepage')
 })
 
 Then('The navbar brand should be visible', function() {

@@ -5,7 +5,7 @@ import CartPage from "../../support/pages/CartPage";
 
 
 Given('I am on the home page', () => {
-    cy.log('Verificando que estamos en la página principal')
+    cy.log('Verifying that we are on the homepage')
 })
 
 

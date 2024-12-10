@@ -2,7 +2,7 @@ import { Given, When, Then } from 'cypress-cucumber-preprocessor/steps'
 import NavigationPage from '../../support/pages/NavigationPage'
 
 Given('I am on the home page', () => {
-    cy.log('Verificando que estamos en la página principal')
+    cy.log('Verifying that we are on the homepage')
 })
 
 When('I click on {string} option', (name) => {

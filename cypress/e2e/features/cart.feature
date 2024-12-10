@@ -1,6 +1,7 @@
 @regression @cart
 Feature: Cart Functionalities
 
+  @setup
   Background:
     Given I am on the home page
 

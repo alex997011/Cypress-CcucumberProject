@@ -7,7 +7,6 @@
     "cy:smoke": "cypress run --env tags=\"@smoke\"",
     "cy:regression": "cypress run --env tags=\"@regression\"",
     "cy:sanity": "cypress run --env tags=\"@sanity\"",
-    "cy:cart": "cypress run --env tags=\"@cart\"",
     "cy:all": "cypress run",
     "browser:chrome": "npx cypress run --browser=chrome --headed --spec cypress/e2e --reporter mocha-allure-reporter",
     "report:allure": "allure generate allure-results --clean -o allure-report && allure open  allure-report"

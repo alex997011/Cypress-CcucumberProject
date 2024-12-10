@@ -25,8 +25,9 @@
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
 
 Cypress.Commands.add('navigateToHomePage', () => {
-    // Agregar los intercepts antes del visit
+
     cy.intercept('GET', 'https://api.demoblaze.com/entries').as('entries')
+
     cy.intercept('GET', 'https://hls.demoblaze.com/**', {}).as('hls')
 
     cy.visit('/')

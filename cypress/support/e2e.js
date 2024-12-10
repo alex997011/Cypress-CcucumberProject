@@ -23,9 +23,9 @@ import '@shelex/cypress-allure-plugin';
 // require('./commands')
 
 beforeEach(() => {
-    cy.log('🏥 Verificando salud de la API')
+    cy.log('Checking API health')
     cy.checkAPIHealth()
 
-    cy.log('🏠 Navegando a la página principal')
+    cy.log('Navigating to the homepage')
     cy.navigateToHomePage()
 })
