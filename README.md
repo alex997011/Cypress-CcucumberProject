@@ -91,9 +91,9 @@ Install Allure dependencies:
 
 In the Cypress Test Runner:
 
-   -Choose "E2E Testing"
-   -Select your preferred browser
-   -Click on any spec file to run the tests
+   - Choose "E2E Testing"
+   - Select your preferred browser
+   - Click on any spec file to run the tests
 
 ## 📊 Generating Allure Reports
 
