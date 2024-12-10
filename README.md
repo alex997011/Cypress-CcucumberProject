@@ -80,14 +80,14 @@ Then we install the Cucumber preprocessor
 
 Install Allure dependencies:
 
--npm install --save-dev @shelex/cypress-allure-plugin allure-commandline
+- npm install --save-dev @shelex/cypress-allure-plugin allure-commandline
 
 
 ## 🏃‍♂️ Running Tests
 
 1. Open Cypress Test Runner:
 
-npx cypress open
+- npx cypress open
 
 In the Cypress Test Runner:
 
@@ -110,6 +110,7 @@ Generate Allure report:
 
 ## 🔧 Configuration
 
+
 Make sure your cypress.config.js includes the Cucumber preprocessor configuration (in this case I have it with the Allure and additional configurations):
 
 ![image](https://github.com/user-attachments/assets/9781ea1a-89c4-4b1e-a7a3-4a83c9739ca6)
@@ -117,7 +118,9 @@ Make sure your cypress.config.js includes the Cucumber preprocessor configuratio
 
 ## 📝 Writing Tests
 
-## Tests are written in Gherkin syntax (.feature files) and step definitions are in JavaScript.
+
+Tests are written in Gherkin syntax (.feature files) and step definitions are in JavaScript.
+
 
 ## 🤝 Contributing
 
