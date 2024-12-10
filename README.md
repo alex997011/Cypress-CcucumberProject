@@ -56,4 +56,7 @@ The framework include test cases for the follwing funcionalities
 ![image](https://github.com/user-attachments/assets/5d59b742-2619-4657-8230-44f08925d711)
 
 
+# ⚠️ How to install the project
+
+
 
